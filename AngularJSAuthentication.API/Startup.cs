@@ -23,7 +23,7 @@ namespace AngularJSAuthentication.API
 
         public void Configuration(IAppBuilder app)
         {
-            //test commit
+            //test commit edit from git 
             HttpConfiguration config = new HttpConfiguration();
 
             ConfigureOAuth(app);
