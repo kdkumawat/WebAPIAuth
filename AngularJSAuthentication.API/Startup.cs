@@ -23,6 +23,7 @@ namespace AngularJSAuthentication.API
 
         public void Configuration(IAppBuilder app)
         {
+            //test commit
             HttpConfiguration config = new HttpConfiguration();
 
             ConfigureOAuth(app);
@@ -66,7 +67,7 @@ namespace AngularJSAuthentication.API
             facebookAuthOptions = new FacebookAuthenticationOptions()
             {
                 AppId = "xxxxxx",
-                AppSecret = "xxxxxx",
+                AppSecret = "xxxxxx", 
                 Provider = new FacebookAuthProvider()
             };
             app.UseFacebookAuthentication(facebookAuthOptions);
