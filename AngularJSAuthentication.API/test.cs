@@ -7,6 +7,6 @@ namespace AngularJSAuthentication.API
 {
     public class test
     {
-        //test // commit 
+        //test // commit  // changes 2
     }
 }
